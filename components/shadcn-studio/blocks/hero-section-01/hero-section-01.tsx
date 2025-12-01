@@ -3,11 +3,10 @@ import { Button } from "@/components/ui/button";
 import DotGrid from "@/components/DotGrid";
 
 const HeroSection = () => {
-  return (
-    <section className="flex min-h-[calc(100dvh-4rem)] flex-1 flex-col justify-between gap-12 pt-8 sm:gap-16 sm:pt-16 lg:gap-24 lg:pt-24 relative overflow-hidden">
-      {/* DotGrid Background - Covering entire hero section except image */}
+  return (    <section className="flex min-h-[calc(100dvh-4rem)] flex-1 flex-col justify-between gap-12 pt-8 sm:gap-16 sm:pt-16 lg:gap-24 lg:pt-24 relative overflow-hidden">
+      {/* DotGrid Background - Covering entire hero section except image - Hidden on mobile */}
       <div
-        className="absolute top-0 left-0 right-0 w-full pointer-events-none z-0"
+        className="absolute top-0 left-0 right-0 w-full pointer-events-none z-0 hidden md:block"
         style={{ height: "calc(100% - 400px)" }}
       >
         <DotGrid
