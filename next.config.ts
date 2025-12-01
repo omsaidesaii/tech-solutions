@@ -9,6 +9,10 @@ const nextConfig: NextConfig = {
         hostname: "cdn.shadcnstudio.com",
         pathname: "/ss-assets/**",
       },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
     ],
   },
 };
