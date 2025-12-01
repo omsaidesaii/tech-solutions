@@ -17,6 +17,7 @@ import {
 import { cn } from '@/lib/utils'
 
 import Logo from '@/components/shadcn-studio/logo'
+import Link from 'next/link'
 
 export type NavigationSection = {
   title: string
@@ -33,10 +34,10 @@ const Header = ({ navigationData, className }: HeaderProps) => {
     <header className={cn('bg-background sticky top-0 z-50 h-16 border-b', className)}>
       <div className='mx-auto flex h-full max-w-7xl items-center justify-between gap-6 px-4 sm:px-6 lg:px-8'>
         {/* Logo */}
-        <a href='/' className='flex items-center gap-3'>
+        <Link href='/' className='flex items-center gap-3'>
           <Logo className='gap-3' />
           <span className='text-xl font-semibold'>TechSolutions</span>
-        </a>
+        </Link>
 
         {/* Navigation */}
         <NavigationMenu className='max-md:hidden'>
