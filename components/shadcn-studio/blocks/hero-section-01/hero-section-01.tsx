@@ -26,7 +26,7 @@ const HeroSection = () => {
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-6 px-4 text-center sm:gap-6 lg:gap-8 sm:px-6 lg:px-8 relative z-10">
         {/* Badge - Hidden on mobile, visible on desktop */}
         <div className="bg-muted  sm:flex items-center gap-2.5 rounded-full  px-3 py-2 text-sm">
-          <Badge className="text-xs">Enterprise Solutions</Badge>
+          <Badge className="text-xs">Enterprise Solutionss</Badge>
           <span className="text-muted-foreground">
             Trusted by Fortune 500 Companies
           </span>
