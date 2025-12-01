@@ -4,24 +4,24 @@ import ContactUs from '@/components/shadcn-studio/blocks/contact-us-page-01/cont
 
 const contactInfo = [
   {
-    title: 'Office Hours',
+    title: 'Business Hours',
     icon: Clock8Icon,
-    description: 'Monday-Friday\n8:00 am to 5:00 pm'
+    description: 'Monday-Friday\n9:00 AM to 6:00 PM EST'
   },
   {
-    title: 'Our Address',
+    title: 'Headquarters',
     icon: MapPinIcon,
-    description: '802 Perston Rd,Maine\n96812, USA'
+    description: '123 Tech Boulevard\nSan Francisco, CA 94105'
   },
   {
-    title: 'Office 2',
+    title: 'Sales Inquiries',
     icon: BriefcaseBusinessIcon,
-    description: '802 Perston Rd,Maine\n96812, USA'
+    description: 'sales@techsolutions.com\nEnterprise Solutions'
   },
   {
-    title: 'Get in Touch',
+    title: 'Support Hotline',
     icon: PhoneIcon,
-    description: '+1-316-888-9685\n+1-316-477-0169'
+    description: '+1 (888) 555-TECH\n24/7 Support Available'
   }
 ]
 
