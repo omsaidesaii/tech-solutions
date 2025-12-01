@@ -1,53 +1,58 @@
-import ProductList from '@/components/shadcn-studio/blocks/product-list-01/product-list-01'
+import ProductList from "@/components/shadcn-studio/blocks/product-list-01/product-list-01";
 
 const productList = [
   {
-    image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&h=300&fit=crop&q=80',
-    imgAlt: 'Cloud Infrastructure Solutions',
-    name: 'Cloud Infrastructure & Migration',
-    price: 4999,
-    badges: ['Cloud', 'AWS/Azure']
+    icon: "CloudUpload",
+    name: "Cloud Infrastructure & Migration",
+    description:
+      "Seamlessly migrate and manage your cloud infrastructure with our expert solutions. Scale efficiently with AWS, Azure, or Google Cloud.",
+    badges: ["Cloud", "AWS/Azure"],
+    featured: false,
   },
   {
-    image: 'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=400&h=300&fit=crop&q=80',
-    imgAlt: 'Cybersecurity Solutions',
-    name: 'Enterprise Cybersecurity Suite',
-    price: 7999,
-    salePrice: 5999,
-    badges: ['Security', 'Enterprise']
+    icon: "ShieldCheck",
+    name: "Enterprise Cybersecurity Suite",
+    description:
+      "Protect your business with comprehensive security solutions including threat detection, prevention, and 24/7 monitoring.",
+    badges: ["Security", "Enterprise"],
+    featured: true,
   },
   {
-    image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=400&h=300&fit=crop&q=80',
-    imgAlt: 'AI & Machine Learning',
-    name: 'AI & Machine Learning Platform',
-    price: 9999,
-    badges: ['AI/ML', 'Analytics']
+    icon: "BrainCircuit",
+    name: "AI & Machine Learning Platform",
+    description:
+      "Leverage cutting-edge AI and ML technologies to automate processes, gain insights, and drive intelligent decision-making.",
+    badges: ["AI/ML", "Analytics"],
+    featured: false,
   },
   {
-    image: 'https://images.unsplash.com/photo-1504639725590-34d0984388bd?w=400&h=300&fit=crop&q=80',
-    imgAlt: 'DevOps Solutions',
-    name: 'DevOps & CI/CD Pipeline',
-    price: 3999,
-    badges: ['DevOps', 'Automation']
+    icon: "Workflow",
+    name: "DevOps & CI/CD Pipeline",
+    description:
+      "Accelerate your development lifecycle with automated pipelines, continuous integration, and seamless deployment strategies.",
+    badges: ["DevOps", "Automation"],
+    featured: false,
   },
   {
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop&q=80',
-    imgAlt: 'Data Analytics Platform',
-    name: 'Business Intelligence & Analytics',
-    price: 6999,
-    badges: ['Analytics', 'BI']
+    icon: "LineChart",
+    name: "Business Intelligence & Analytics",
+    description:
+      "Transform raw data into actionable insights with powerful analytics tools and interactive dashboards for informed decisions.",
+    badges: ["Analytics", "BI"],
+    featured: false,
   },
   {
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=300&fit=crop&q=80',
-    imgAlt: 'Digital Transformation',
-    name: 'Digital Transformation Consulting',
-    price: 12999,
-    badges: ['Consulting', 'Strategy']
-  }
-]
+    icon: "Rocket",
+    name: "Digital Transformation Consulting",
+    description:
+      "Navigate your digital journey with strategic consulting services that modernize operations and enhance customer experiences.",
+    badges: ["Consulting", "Strategy"],
+    featured: false,
+  },
+];
 
 const ProductListPage = () => {
-  return <ProductList products={productList} />
-}
+  return <ProductList products={productList} />;
+};
 
-export default ProductListPage
+export default ProductListPage;
