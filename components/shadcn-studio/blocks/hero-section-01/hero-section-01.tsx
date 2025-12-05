@@ -12,15 +12,15 @@ const HeroSection = () => {
         style={{ height: "calc(100% - 400px)" }}
       >
         <DotGrid
-          dotSize={8}
-          gap={15}
+          dotSize={2}
+          gap={26}
           baseColor="#FFFFFF"
           activeColor="#000000"
-          proximity={230}
-          shockRadius={250}
-          shockStrength={8}
-          resistance={750}
-          returnDuration={1.5}
+          proximity={310}
+          shockRadius={360}
+          shockStrength={5}
+          resistance={1100}
+          returnDuration={5}
         />
       </div>      {/* Hero Content */}
       <div className="mx-auto flex max-w-7xl flex-col items-center gap-6 px-4 text-center sm:gap-6 lg:gap-8 sm:px-6 lg:px-8 relative z-10">
